@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    int n1,i,somatoriosw = 0;
+    for(i = 1; i < 5; i++){
+    printf("digite o numero %d\n",i);
+    scanf("%d", &n1);
+    somatoriosw = somatoriosw + n1;
+    }
+    printf(" %d\n", somatoriosw);
+    return 0;
+}
